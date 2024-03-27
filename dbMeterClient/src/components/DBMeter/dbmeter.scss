@@ -8,11 +8,12 @@
     display: flex;
     flex-direction: column;
     h1 {
-      font-size: 3em;
+      font-size: 2.5em;
     }
     &-subheader {
       display: flex;
       justify-content: space-between;
+      font-family: "Josefin Sans", sans-serif;
     }
   }
   &-name {
@@ -63,7 +64,8 @@
       inset 4px 4px 4px rgba(255, 255, 255, 0.25);
   }
   &-output-screen p {
-    font-family: "DS-DIGI", "DigitalDisplay", sans-serif, monospace;
+    font-family: "DS-DIGI", "DigitalDisplay", "Segment16C", "Segment16B",
+      sans-serif, monospace;
     font-size: 6.5em;
     font-weight: bold;
     display: flex;

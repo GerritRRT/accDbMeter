@@ -28,7 +28,7 @@ function Comparables({ decibel }) {
           <Icon name={closestComparable?.icon} type={"outlined"} />
         )}
       </div>
-      <div className="comparable-text">{closestComparable?.label}</div>
+      <p className="comparable-text">{closestComparable?.label}</p>
     </div>
   );
 }

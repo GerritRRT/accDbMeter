@@ -1,4 +1,38 @@
 @font-face {
+  font-family: "Josefin Sans";
+  src: url("../assets/fonts/JosefinSans-VariableFont_wght.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Segment16C";
+  src: url("../assets/fonts/Segment16C Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segment16C";
+  src: url("../assets/fonts/Segment16C Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segment16B";
+  src: url("../assets/fonts/Segment16B Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Segment16B";
+  src: url("../assets/fonts/Segment16B Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "DS-DIGI";
   src: url("../assets/fonts/DS-DIGI.TTF") format("truetype");
   font-weight: normal;

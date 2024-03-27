@@ -2,6 +2,7 @@ import Comparables from "../Comparables/Comparables";
 import { NumberFormatter } from "../NumberFormatter/NumberFormatter";
 import PropTypes from "prop-types";
 import "./dbmeter.scss";
+import Summary from "../Summary/Summary";
 
 function Dbmeter({ sensor: { sensorId, dbLevel, sensorName, timestamp } }) {
   const formattedDB = Math.round(dbLevel);
@@ -26,6 +27,7 @@ function Dbmeter({ sensor: { sensorId, dbLevel, sensorName, timestamp } }) {
           </div>
         </div>
         {dbLevel && <Comparables decibel={formattedDB} />}
+        <Summary dbLevel={dbLevel} />
       </div>
     </>
   );

@@ -59,7 +59,7 @@ function TheRack() {
       </button>
       <div className="the-rack-sensors">
         {sensorData.map((sensor) => (
-          <Dbmeter key={sensor.sensorId} sensor={sensor} />
+          <Dbmeter key={sensor.sensorId} sensorData={sensor} />
         ))}
       </div>
     </div>
